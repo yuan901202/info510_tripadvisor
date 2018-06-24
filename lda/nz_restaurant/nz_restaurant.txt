@@ -1,0 +1,16 @@
+summary(term_tfidf)
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.
+0.03679 0.22128 0.33192 0.40843 0.50904 3.98299
+
+
+summary(col_sums(tdm))
+    Min.  1st Qu.   Median     Mean  3rd Qu.     Max.
+    1.00     1.00     1.00    11.35     2.00 10871.00
+
+
+    VEM VEM_fixed
+37.47486   5.00000
+
+VEM VEM_fixed     Gibbs       CTM
+ 2.302347  2.243262  2.246865  2.295802
+ 

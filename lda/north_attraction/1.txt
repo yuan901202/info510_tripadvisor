@@ -1,0 +1,17 @@
+summary(term_tfidf)
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.
+0.03038 0.16509 0.24605 0.30660 0.37033 3.42554
+
+
+summary(col_sums(tdm))
+    Min.  1st Qu.   Median     Mean  3rd Qu.     Max.
+   1.000    1.000    1.000    7.209    2.000 2612.000
+
+
+   sapply(CSC_TM[1:2], slot, "alpha")
+       VEM  VEM_fixed
+0.03425593 5.00000000
+
+sapply(CSC_TM, function(x) mean(apply(posterior(x)$topics, 1, function(z) - sum(z * log(z)))))
+      VEM VEM_fixed     Gibbs       CTM
+0.5207538 2.1989788 2.2217205 1.3272128

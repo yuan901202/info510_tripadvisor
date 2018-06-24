@@ -1,0 +1,8 @@
+"emotion"	"Freq"
+"anger"	207
+"disgust"	21
+"fear"	63
+"joy"	2826
+"sadness"	79
+"surprise"	535
+"unknown"	1037

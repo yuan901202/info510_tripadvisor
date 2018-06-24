@@ -1,0 +1,5 @@
+"emotion"	"Freq"
+"anger"	4
+"joy"	7
+"surprise"	1
+"unknown"	2

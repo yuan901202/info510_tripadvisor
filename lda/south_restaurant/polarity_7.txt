@@ -1,0 +1,4 @@
+"polarity"	"Freq"
+"negative"	509
+"neutral"	663
+"positive"	2571
